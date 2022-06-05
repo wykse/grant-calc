@@ -1,0 +1,115 @@
+﻿ref,ref_note,category,equipment_type,load_factor
+2017cmp,d-7,Airport Ground Support,Aircraft Tug,0.54
+2017cmp,d-7,Airport Ground Support,Air Conditioner,0.75
+2017cmp,d-7,Airport Ground Support,Air Start Unit,0.9
+2017cmp,d-7,Airport Ground Support,Baggage Tug,0.37
+2017cmp,d-7,Airport Ground Support,Belt Loader,0.34
+2017cmp,d-7,Airport Ground Support,Bobtail,0.37
+2017cmp,d-7,Airport Ground Support,Cargo Loader,0.34
+2017cmp,d-7,Airport Ground Support,Cargo Tractor,0.36
+2017cmp,d-7,Airport Ground Support,Forklift,0.2
+2017cmp,d-7,Airport Ground Support,Ground Power Unit,0.75
+2017cmp,d-7,Airport Ground Support,Lift,0.34
+2017cmp,d-7,Airport Ground Support,Passenger Stand,0.4
+2017cmp,d-7,Airport Ground Support,Service Truck,0.2
+2017cmp,d-7,Airport Ground Support,Other Ground Support Equipment,0.34
+2017cmp,d-7,Agricultural,Agricultural Mowers,0.43
+2017cmp,d-7,Agricultural,Agricultural Tractors,0.7
+2017cmp,d-7,Agricultural,Balers,0.58
+2017cmp,d-7,Agricultural,Combines/Choppers,0.7
+2017cmp,d-7,Agricultural,Chippers/Stump Grinders,0.73
+2017cmp,d-7,Agricultural,Generator Sets,0.74
+2017cmp,d-7,Agricultural,Hydro Power Units,0.48
+2017cmp,d-7,Agricultural,Irrigation Pump,0.65
+2017cmp,d-7,Agricultural,Shredders,0.4
+2017cmp,d-7,Agricultural,Sprayers,0.5
+2017cmp,d-7,Agricultural,Swathers,0.55
+2017cmp,d-7,Agricultural,Tillers,0.78
+2017cmp,d-7,Agricultural,Other Agricultural,0.51
+2017cmp,d-7,Construction,Air Compressors,0.48
+2017cmp,d-7,Construction,Bore/Drill Rigs,0.5
+2017cmp,d-7,Construction,Cement & Mortar Mixers,0.56
+2017cmp,d-7,Construction,Concrete/Industrial Saws,0.73
+2017cmp,d-7,Construction,Concrete/Trash Pump,0.74
+2017cmp,d-7,Construction,Cranes,0.29
+2017cmp,d-7,Construction,Crawler Tractors,0.43
+2017cmp,d-7,Construction,Crushing/Process Equipment,0.78
+2017cmp,d-7,Construction,Excavators,0.38
+2017cmp,d-7,Construction,Graders,0.41
+2017cmp,d-7,Construction,Off-Highway Tractors,0.44
+2017cmp,d-7,Construction,Off-Highway Trucks,0.38
+2017cmp,d-7,Construction,Pavers,0.42
+2017cmp,d-7,Construction,Other Paving,0.36
+2017cmp,d-7,Construction,Pressure Washer,0.3
+2017cmp,d-7,Construction,Rollers,0.38
+2017cmp,d-7,Construction,Rough Terrain Forklifts/ Rubber Tired Dozers,0.4
+2017cmp,d-7,Construction,Rubber Tired Loaders,0.36
+2017cmp,d-7,Construction,Scrapers,0.48
+2017cmp,d-7,Construction,Signal Boards,0.78
+2017cmp,d-7,Construction,Skid Steer Loaders,0.37
+2017cmp,d-7,Construction,Surfacing Equipment,0.3
+2017cmp,d-7,Construction,Tractors/Loaders/Backhoes,0.37
+2017cmp,d-7,Construction,Trenchers,0.5
+2017cmp,d-7,Construction,Welders,0.45
+2017cmp,d-7,Construction,Other Construction Equipment,0.42
+2017cmp,d-7,Industrial,Aerial Lifts,0.31
+2017cmp,d-7,Industrial,Forklifts,0.2
+2017cmp,d-7,Industrial,Sweepers/Scrubbers,0.46
+2017cmp,d-7,Industrial,Other General Industrial,0.34
+2017cmp,d-7,Industrial,Other Material Handling,0.4
+2017cmp,d-7,Logging,Fellers/Bunchers,0.71
+2017cmp,d-7,Logging,Skidders,0.74
+2017cmp,d-7,Oil Drilling,Drill Rig,0.5
+2017cmp,d-7,Oil Drilling,Lift (Drilling),0.6
+2017cmp,d-7,Oil Drilling,Swivel,0.6
+2017cmp,d-7,Oil Drilling,Workover Rig (Mobile),0.5
+2017cmp,d-7,Oil Drilling,Other Workover Equipment,0.6
+2017cmp,d-7,Cargo Handling,Container Handling Equipment,0.59
+2017cmp,d-7,Cargo Handling,Cranes,0.2
+2017cmp,d-7,Cargo Handling,Excavators,0.55
+2017cmp,d-7,Cargo Handling,Forklifts,0.3
+2017cmp,d-7,Cargo Handling,Other Cargo Handling Equipment,0.51
+2017cmp,d-7,Cargo Handling,Sweeper/Scrubber,0.68
+2017cmp,d-7,Cargo Handling,Tractors/Loaders/Backhoes,0.55
+2017cmp,d-7,Cargo Handling,Yard Trucks,0.39
+2017cmp,d-7,All,Other,0.43
+2017cmp,d-10,Agriculture,Agricultural Tractors,0.62
+2017cmp,d-10,Agriculture,Balers,0.55
+2017cmp,d-10,Agriculture,Combines/Choppers,0.74
+2017cmp,d-10,Agriculture,Chipper/Stump Grinder,0.78
+2017cmp,d-10,Agriculture,Generator Sets,0.68
+2017cmp,d-10,Agriculture,Sprayers,0.5
+2017cmp,d-10,Agriculture,Swathers,0.52
+2017cmp,d-10,Agriculture,Pumps,0.65
+2017cmp,d-10,Agriculture,Other Agricultural Equipment,0.55
+2017cmp,d-10,Airport Ground Support,A/C Tug,0.8
+2017cmp,d-10,Airport Ground Support,Baggage Tug,0.55
+2017cmp,d-10,Airport Ground Support,Belt Loader,0.5
+2017cmp,d-10,Airport Ground Support,Bobtail,0.55
+2017cmp,d-10,Airport Ground Support,Cargo Loader,0.5
+2017cmp,d-10,Airport Ground Support,Forklift,0.3
+2017cmp,d-10,Airport Ground Support,Ground Power Unit,0.75
+2017cmp,d-10,Airport Ground Support,Lift,0.5
+2017cmp,d-10,Airport Ground Support,Passenger Stand,0.59
+2017cmp,d-10,Airport Ground Support,Other Ground Support Equipment,0.5
+2017cmp,d-10,Construction,Air Compressors,0.56
+2017cmp,d-10,Construction,Asphalt Pavers,0.66
+2017cmp,d-10,Construction,Bore/Drill Rigs,0.79
+2017cmp,d-10,Construction,Concrete/Industrial Saws,0.78
+2017cmp,d-10,Construction,Concrete/Trash Pump,0.69
+2017cmp,d-10,Construction,Cranes,0.47
+2017cmp,d-10,Construction,Gas Compressor,0.85
+2017cmp,d-10,Construction,Paving Equipment,0.59
+2017cmp,d-10,Construction,Pressure Washer,0.85
+2017cmp,d-10,Construction,Rollers,0.62
+2017cmp,d-10,Construction,Rough Terrain Forklifts,0.63
+2017cmp,d-10,Construction,Rubber Tired Loaders,0.54
+2017cmp,d-10,Construction,Skid Steer Loaders,0.58
+2017cmp,d-10,Construction,Tractors/Loaders/Backhoes,0.48
+2017cmp,d-10,Construction,Trenchers,0.66
+2017cmp,d-10,Construction,Welders,0.51
+2017cmp,d-10,Construction,Other Construction,0.48
+2017cmp,d-10,Industrial,Aerial Lifts,0.46
+2017cmp,d-10,Industrial,Forklifts,0.3
+2017cmp,d-10,Industrial,Sweepers/Scrubbers,0.71
+2017cmp,d-10,Industrial,Other Industrial,0.54
