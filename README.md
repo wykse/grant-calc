@@ -14,9 +14,5 @@ pip install -r requirements.txt
 streamlit run Hello.py
 ```
 
-## 🦖 Examples
-### 🚛 Single Baseline
-![Single replacement page](/assets/images/single_replacement.png)
-
-### 🚛🚛 Multiple Baselines
-![Multiple replacement page](/assets/images/multiple_replacement.png)
+## 🦖 Example
+![Demo](/assets/images/demo.gif)
