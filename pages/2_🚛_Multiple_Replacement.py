@@ -1,4 +1,5 @@
 from datetime import datetime
+from pathlib import Path
 
 import ce
 import pandas as pd
@@ -20,8 +21,8 @@ Calculate potential grant amounts for one or multiple baselines.
 """
 )
 
-emi_df = pd.read_csv(r"output/emission_factors.csv")
-load_df = pd.read_csv(r"output/load_factors.csv")
+emi_df = pd.read_csv(Path(__file__).parents[1] / "output/emission_factors.csv")
+load_df = pd.read_csv(Path(__file__).parents[1] / "output/load_factors.csv")
 
 num_base = st.number_input(label="Number of 🚛", min_value=1)
 

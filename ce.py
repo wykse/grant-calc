@@ -5,6 +5,7 @@ Classes and functions for calculating grant amount.
 import numbers
 import os.path
 from collections import namedtuple
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -36,7 +37,7 @@ class OffRoadEquipment(Equipment):
         hp: int,
         standard: str,
         cost: float = None,
-        emissions_table=pd.read_csv(r"output\emission_factors.csv"),
+        emissions_table=pd.read_csv(Path(__file__).parents[0] / "output/emission_factors.csv"),
     ):
         """Construct all the necessary attributes for the object.
 
@@ -48,7 +49,8 @@ class OffRoadEquipment(Equipment):
             hp (int): Horsepower.
             standard (str): Emission standard.
             cost (float, optional): Unit cost. Defaults to None.
-            emissions_table (dataframe, optional): Dataframe of emission factors. Defaults to pd.read_csv(r"output\emission_factors.csv").
+            emissions_table (dataframe, optional): Dataframe of emission factors.
+                Defaults to pd.read_csv(Path(__file__).parents[0] / "output/emission_factors.csv").
 
         Raises:
             Exception: Provided parameters do not return emission factors.
@@ -348,7 +350,7 @@ def calc_surplus_emissions_2s(
     percent_op: int | list,
     project_life_s1: int,
     project_life: int,
-    emissions_table=pd.read_csv(r"output\emission_factors.csv"),
+    emissions_table=pd.read_csv(Path(__file__).parents[0] / "output/emission_factors.csv"),
     verbose: bool = False,
 ) -> tuple:
     """Calculates emission reductions for advanced technology replacement
@@ -363,7 +365,8 @@ def calc_surplus_emissions_2s(
         percent_op (int | list): Percent of operation in area of interest.
         project_life_s1 (int): First step project life in years.
         project_life (int): Project life in years.
-        emissions_table (dataframe, optional): DataFrame of emission factors. Defaults to pd.read_csv(r"output\emission_factors.csv").
+        emissions_table (dataframe, optional): DataFrame of emission factors.
+            Defaults to pd.read_csv(Path(__file__).parents[0] / "output/emission_factors.csv").
         verbose (bool, optional): Print information to console. Defaults to False.
 
     Returns:

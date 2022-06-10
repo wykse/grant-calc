@@ -1,10 +1,11 @@
 from decimal import ROUND_HALF_UP, Decimal
+from pathlib import Path
 
 import pandas as pd
 
 import ce
 
-emi_df = pd.read_csv(r"output\emission_factors.csv")
+emi_df = pd.read_csv(Path(__file__).parents[0] / "output/emission_factors.csv")
 
 
 def test_crf():

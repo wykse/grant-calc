@@ -1,11 +1,11 @@
 from datetime import datetime
+from pathlib import Path
 
+import ce
 import pandas as pd
 import plotly.express as px
 import streamlit as st
 from sqlalchemy import *
-
-import ce
 
 
 def horizontal_line():
@@ -98,7 +98,7 @@ def get_connection(path: str):
 # ADDING A TITLE AND FAVICON
 st.set_page_config(page_title="Grant Calculator - Single Baseline", page_icon="🚛")
 
-URI_SQLITE_DB = "output/grants.db"
+URI_SQLITE_DB = Path(__file__).parents[1] / "output/grants.db"
 
 
 # sqlalchemy
@@ -158,8 +158,8 @@ example_button()
 
 horizontal_line()
 
-emi_df = pd.read_csv(r"output/emission_factors.csv")
-load_df = pd.read_csv(r"output/load_factors.csv")
+emi_df = pd.read_csv(Path(__file__).parents[1] / "output/emission_factors.csv")
+load_df = pd.read_csv(Path(__file__).parents[1] / "output/load_factors.csv")
 
 
 # PROJECT SELECTOR AND NAME
